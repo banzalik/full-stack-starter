@@ -6,9 +6,9 @@ exports.getConfig = function() {
 
     return BEM.util.extend(this.__base() || {}, {
         bundleBuildLevels: this.resolvePaths([
-            '../../bem-bl/blocks-common',
-            '../../bem-bl/blocks-desktop',
-            '../../bemhtml/common.blocks',
+            '../../.bem/bem-bl/blocks-common',
+            '../../.bem/bem-bl/blocks-desktop',
+            '../../.bem/bemhtml/common.blocks',
             '../../desktop.blocks'
         ])
     });
