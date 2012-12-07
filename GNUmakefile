@@ -9,7 +9,7 @@ ifneq (,$(findstring B,$(MAKEFLAGS)))
 	BEM_FLAGS := --force
 endif
 
-all:: $(BEM) submodules server
+all:: $(BEM) server
 
 %:: $(BEM)
 	$(if $(findstring GNUmakefile,$@),,$(BEM) make $@ $(BEM_FLAGS))
@@ -23,10 +23,6 @@ $(BEM):: $(NODE_MODULES)
 $(NODE_MODULES)::
 	$(debug ---> Updating npm dependencies)
 	@$(NPM) install
-
-.PHONY: submodules
-submodules::
-	@git submodule update
 
 .PHONY: clean
 clean::

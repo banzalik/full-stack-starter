@@ -1,6 +1,0 @@
-[submodule ".bem/libs/bem-bl"]
-	path = .bem/libs/bem-bl
-	url = git://github.com/bem/bem-bl.git
-[submodule ".bem/libs/bemhtml"]
-	path = .bem/libs/bemhtml
-	url = git://github.com/bem/bemhtml.git

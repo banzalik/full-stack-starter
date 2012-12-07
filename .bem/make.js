@@ -4,6 +4,30 @@
 
 //process.env.YENV = 'production';
 
+MAKE.decl('Arch', {
+
+    blocksLevelsRegexp: /^.+?\.blocks/,
+
+    bundlesLevelsRegexp: /^.+?\.bundles$/,
+
+    getLibraries: function() {
+
+        return {
+            '.bem/bem-bl': {
+                type: 'git',
+                url: 'git://github.com/bem/bem-bl.git',
+                treeish: '0.3'
+            },
+            '.bem/bemhtml' : {
+                type: 'git',
+                url: 'git://github.com/bem/bemhtml.git'
+            }
+        };
+
+    }
+
+});
+
 MAKE.decl('BundleNode', {
 
     getTechs: function() {
