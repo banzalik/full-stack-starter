@@ -29,6 +29,23 @@
 
 Будет позже...
 
+### Cloud9.io
+
+Проект умеет работать на  Cloud9 IDE.
+
+ * Делаем форк этого репозитория
+ * Заходим в [Cloud9 IDE](http://c9.io) через свой проофль Github
+ * Выбираем проект full-stack-starter
+ * В консоле набираем 
+
+      › make
+
+  * Ждем пока не появится сообщение
+
+      › info: Server is listening on port 8080. Point your browser to http://localhost:8080/
+
+ * Переходим по ссылке `http://full-stack-starter.USERNAME.c9.io/pages/index/index.html`, где `USERNAME` - ваш логин
+
 ### Больше ссылок
  * Подробнее о БЭМ [bem.info](http://ru.bem.info).
  * Если надо проект с [блэкджеком и шлюхами](https://github.com/bem/full-stack-starter).
