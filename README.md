@@ -1,29 +1,34 @@
-Minimal configs and folders to start BEM project
+Минмальный набор для использования БЭМ стека
 ================================================
 
-### Usage
+### Использование
 
-    › git clone git://github.com/bem/full-stack-starter.git
-    › cd project-stub
+    › git clone git://github.com/banzalik/full-stack-starter.git myproject
+    › cd myproject
     › make
 
-This will install localy all project's dependencies from npm and starts local `bem server`
-under HTTP port `8080`. So you could navigate to `http://localhost:8080/desktop.bundles/index/index.html`.
+После чего заходим на ссылке [http://localhost:8080/pages/index/index.html](http://localhost:8080/pages/index/index.html).
 
-Alternative to use `make`, you could install all dependencies by your self. To do so type `npm install` from the top
-of your working copy. After that your could start server:
+Любые изменения в исходных кодах автоматически подтянутся при обновлении страницы в браузере.
 
-    › bem server
+### О файловой структуре
 
-    Navigate to `http://localhost:8080/desktop.bundles/index/index.html`
+#### Папка blocks
 
-**NOTE:** `bem` should be in your `PATH` environment variable. You could do this by adding this line to your user's
-`.profile` config:
+Тут создаем блоки, их CSS, JS, IMG и BEMHTML шаблоны.
 
-    exports PATH=./node_modules/.bin:$PATH
+#### Папка pages
 
----
+Тут создаем (описываем) страницы проекта в формате .bemjson.
 
-BEM is abbreviation for Block-Element-Modifier. It's a way to write code which is easy to support and develop.
+Каждая страица должна находиться в отдельной директории.
 
-For more info about BEM metodology see [bem.info](http://bem.info/).
+Название директории, *.bemjson, *.css, *.js файлов, находящихся внутри папки, должны совпадать.
+
+### Экспорт в нормальную структуру
+
+Будет позже...
+
+### Больше ссылок
+ * Подробнее о БЭМ [bem.info](http://ru.bem.info).
+ * Если надо проект с [блэкджеком и шлюхами](https://github.com/bem/full-stack-starter).
