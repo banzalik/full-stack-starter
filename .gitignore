@@ -1,5 +1,3 @@
-bem-bl
-bemhtml
 node_modules
 .DS_Store
 .idea
@@ -7,6 +5,6 @@ node_modules
 .svn
 .bem/cache
 .bem/libs
-desktop.bundles/*/*.*
-!desktop.bundles/*/*.bemjson.js
-!desktop.bundles/.bem/*
+pages/*/*.*
+!pages/*/*.bemjson.js
+!pages/.bem/*
