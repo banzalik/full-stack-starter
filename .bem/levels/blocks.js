@@ -6,7 +6,7 @@ var PATH = require('path'),
     PRJ_ROOT = presolve('../../'),
 
     PRJ_TECHS = presolve('../techs/'),
-    BEMBL_TECHS = pjoin(PRJ_ROOT, '.bem/libs/bem-bl/blocks-common/i-bem/bem/techs');
+    BEMBL_TECHS = pjoin(PRJ_ROOT, 'bem-bl/blocks-common/i-bem/bem/techs');
 
 
 exports.getTechs = function() {

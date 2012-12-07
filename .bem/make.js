@@ -13,12 +13,12 @@ MAKE.decl('Arch', {
     getLibraries: function() {
 
         return {
-            '.bem/libs/bem-bl': {
+            'bem-bl': {
                 type: 'git',
                 url: 'git://github.com/bem/bem-bl.git',
                 treeish: '0.3'
             },
-            '.bem/libs/bemhtml' : {
+            'bemhtml' : {
                 type: 'git',
                 url: 'git://github.com/bem/bemhtml.git'
             }
