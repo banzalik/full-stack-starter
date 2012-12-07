@@ -8,7 +8,7 @@ Minimal configs and folders to start BEM project
     › make
 
 This will install localy all project's dependencies from npm and starts local `bem server`
-under HTTP port `8080`. So you could navigate to `http://localhost:8080/desktop.bundles/index/index.html`.
+under HTTP port `8080`. So you could navigate to [http://localhost:8080/desktop.bundles/index/index.html](http://localhost:8080/desktop.bundles/index/index.html).
 
 Alternative to use `make`, you could install all dependencies by your self. To do so type `npm install` from the top
 of your working copy. After that your could start server:
