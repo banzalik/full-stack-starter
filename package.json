@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com/bem/full-stack-starter.git"
+    "url": "git://github.com/banzalik/full-stack-starter.git"
   },
   "engines": {
     "node": "0.6 | 0.7 | 0.8 | 0.9"
