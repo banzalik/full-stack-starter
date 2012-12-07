@@ -40,7 +40,7 @@
 
       › make
 
-  * Ждем пока не появится сообщение
+ * Ждем пока не появится сообщение
 
       › info: Server is listening on port 8080. Point your browser to http://localhost:8080/
 
