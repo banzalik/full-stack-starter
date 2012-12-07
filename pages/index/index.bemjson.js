@@ -35,6 +35,8 @@
             elemMods: { color: 'olive' },
             content: 'Я элемент блока b-test с модификатором color=olive'
         }]
-    }
-    ]
+    },{
+        block: 'b-test',
+        elem: 'img'
+    }]
 })

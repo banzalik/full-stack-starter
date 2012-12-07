@@ -1,0 +1,6 @@
+.b-test__img {
+	width: 230px;
+	height: 182px;
+
+	background: url(b-test__img.png);
+}
