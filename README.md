@@ -15,7 +15,7 @@ of your working copy. After that your could start server:
 
     › bem server
 
-    Navigate to `http://localhost:8080/desktop.bundles/index/index.html`
+Navigate to [http://localhost:8080/desktop.bundles/index/index.html](http://localhost:8080/desktop.bundles/index/index.html)
 
 **NOTE:** `bem` should be in your `PATH` environment variable. You could do this by adding this line to your user's
 `.profile` config:
